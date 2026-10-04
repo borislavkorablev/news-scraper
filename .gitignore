@@ -1,0 +1,41 @@
+# Secrets — never commit these
+.env
+.env.local
+.env.production
+
+# Telegram session files — contains authenticated account data
+/sessions/
+*.session
+*.session-journal
+
+# Database — contains your data, not code
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies — recreated with npm install
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/settings.json
+.idea/
+
+# Your private learning plan
+news_scraper_learning_plan.md
+
+# Prompt files — editorial identity, keep private
+/prompts/lore.md
+/prompts/narratives.md
+/prompts/voice.md
+/prompts/sources.md
+
+# Auto-generated feedback — personal editorial patterns
+/prompts/feedback_history.md
